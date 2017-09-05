@@ -1,0 +1,44 @@
+button, html input[type=button], input[type=reset], input[type=submit]{
+  width: 235px;
+}
+select.form-control.cargos{
+  width: 235px;
+}
+
+#page-wrapper .input-group{
+  margin: 20px auto;
+  display: block;
+}
+
+#page-wrapper .input-group legend{
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0 20px;
+  padding-bottom: 20px;
+}
+
+#page-wrapper .input-group{
+  margin: 0 0 20px;
+  display: block;
+}
+
+#page-wrapper .input-group .form-control{
+  float: none;
+  display: block;
+}
+
+#page-wrapper .input-group input,
+#page-wrapper .input-group textarea{
+  float: none;
+  padding: 12px 10px;
+  height: auto;
+  display: block;
+}
+
+#page-wrapper .input-group textarea {
+  min-height: 220px;
+}
+
+#page-wrapper .input-group .btn {
+  float: right;
+}

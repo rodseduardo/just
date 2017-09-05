@@ -1,0 +1,21 @@
+{
+  "name": "just",
+  "authors": [
+    "Rodrigo Mendes - rods.eduardo@gmail.com"
+  ],
+  "description": "Projeto Just",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-slugify": "^1.2.4"
+  }
+}
