@@ -29,7 +29,11 @@ class PHPNativeElements extends PHPunit
 
     public function testeDeleteUser()
     {
-        
+
+        $user = new Users();
+        $return = $user->findByEmail('FakeEmail@gmail.com');
+        $user->delete($return->id);
+
     }
 
     public function testCreatePost()
